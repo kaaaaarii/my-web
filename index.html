@@ -1,3 +1,108 @@
-輝く未来ニューシングルリリース
-テンポのいい明るい曲
-Rucy
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>輝く未来 - Rucy</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+	<style>
+		body {
+			background: #fafafa;
+			font-family: 'Noto Sans JP', 'Montserrat', Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			min-height: 100vh;
+		}
+		.header {
+			background: #fff;
+			border-bottom: 1px solid #e6e6e6;
+			padding: 20px 0 10px 0;
+			text-align: center;
+			font-family: 'Montserrat', Arial, sans-serif;
+			font-size: 2rem;
+			font-weight: 700;
+			letter-spacing: 2px;
+			color: #262626;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+		}
+		.container {
+			display: flex;
+			justify-content: center;
+			align-items: flex-start;
+			min-height: 80vh;
+			margin-top: 40px;
+		}
+		.card {
+			background: #fff;
+			border-radius: 16px;
+			box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+			padding: 32px 24px 24px 24px;
+			max-width: 400px;
+			width: 100%;
+			text-align: center;
+			transition: box-shadow 0.2s;
+		}
+		.card:hover {
+			box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+		}
+		.cover-img {
+			width: 100%;
+			max-width: 320px;
+			border-radius: 12px;
+			margin-bottom: 24px;
+			object-fit: cover;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+		}
+		.title {
+			font-size: 1.5rem;
+			font-weight: 700;
+			margin-bottom: 8px;
+			color: #262626;
+		}
+		.desc {
+			font-size: 1rem;
+			color: #555;
+			margin-bottom: 16px;
+		}
+		.artist {
+			font-size: 1.1rem;
+			color: #888;
+			margin-bottom: 20px;
+			font-weight: 700;
+		}
+		audio {
+			width: 100%;
+			outline: none;
+			margin-top: 10px;
+		}
+		@media (max-width: 600px) {
+			.container {
+				margin-top: 10px;
+			}
+			.card {
+				padding: 16px 4px 16px 4px;
+				max-width: 98vw;
+			}
+			.cover-img {
+				max-width: 95vw;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="header">輝く未来</div>
+	<div class="container">
+		<div class="card">
+			<img src="WIN_20250411_11_56_24_Pro.jpg" alt="輝く未来カバー" class="cover-img">
+			<div class="title">輝く未来 - ニューシングルリリース</div>
+			<div class="desc">テンポのいい明るい曲</div>
+			<div class="artist">Rucy</div>
+			<audio controls>
+				<source src="輝く未来.mp3" type="audio/mpeg">
+				お使いのブラウザはaudioタグに対応していません。
+			</audio>
+		</div>
+	</div>
+</body>
+</html>
